@@ -13,11 +13,11 @@ header {
 	background-color: #FFFACD;
 	color: #000000;
 	height: 90px;
-	 position:fixed;
-  top:0px;
-  /* Ubah z-index ke 10 */
-  z-index:20;
-  width:100%;
+  position:fixed;
+top:0px;
+
+z-index:20;
+width:100%;
 }
 
 .header-logo  {
@@ -80,7 +80,7 @@ header {
     color: black;
     z-index: 10;
     position: relative;
-    
+
 }
 
 .heading h1 {
@@ -127,7 +127,7 @@ header {
     text-decoration: none;
     letter-spacing: 1.5px;
     font-weight: bold;
-} 
+}
 
 .box {
     width: 90%;
@@ -160,7 +160,7 @@ header {
 	float: left;
 	display: flex;
 	flex-direction: row;
-	
+
 }
 
 .images {
@@ -259,15 +259,12 @@ button:hover{
 	transition:all 0.7s;
 }
 
-button:active{
-
-}
-
 .sosmed i{
 	padding-right: 30px;
 	cursor: pointer;
 }
 /*batas nathan*/
+
 
 /* Responsive Nofri */
 .menu-icon {
@@ -277,138 +274,150 @@ button:active{
   display:none;
   color: black;
 }
+
+/* -------------------------------------- */
+
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .images {
-    padding: 30px;
-    float: left;
-    width: 39%;
-  }
-  .images-list{
-    float: none;
-    display: inline-block;
-    flex-direction: row;
+	.heading img{
 
-  }
-  .body{
-    height: 1300px;
-  }
+		margin-top: 200px;
+		margin-right: 0px;
+	}
+	.heading {
+		width: 80%;
+	}
+	.images {
+	  padding: 30px;
+	  float: left;
+	  width: 39%;
+	}
+	.images-list{
+	  float: none;
+	  display: inline-block;
+	  flex-direction: row;
 
-  }
+	}
+	.body{
+	  height: 1300px;
+	}
 
-  /* Untuk Smartphone */
-  @media all and (max-width: 607px) {
+	}
 
-    /* header */
-    header {
-      height: 70px;
-    }
+	/* Untuk Smartphone */
+	@media all and (max-width: 607px) {
 
-      .header-logo  {
-      padding: 15px 10px;
+	  /* header */
+	  header {
+		height: 70px;
+	  }
 
-    }
+		.header-logo  {
+		padding: 15px 10px;
 
-    .list{
-      display:none;
-    }
+	  }
 
-
-    .logo-shop{
-      display:none;
-    }
-
-    .header-right{
-      display:none;
-    }
+	  .list{
+		display:none;
+	  }
 
 
-    .menu-icon{
-      display:block;
-      padding-right: 10px;
-    }
-    /*batas header*/
+	  .logo-shop{
+		display:none;
+	  }
 
-    /*main*/
+	  .header-right{
+		display:none;
+	  }
 
-    .main {
-      margin: auto;
-  }
 
-  .heading {
-      padding: 150px 0px 130px 70px;
+	  .menu-icon{
+		display:block;
+		padding-right: 10px;
+	  }
+	  /*batas header*/
 
-  }
+	  /*main*/
 
-  .heading img{
-  display: none;
-  }
+	  .main {
+		margin: auto;
+	}
 
-  .heading h1 {
-      font-size: 40px;
-  }
+	.heading {
+		padding: 150px 0px 130px 70px;
 
-  .box {
-      width: 80%;
-      height: 75%;
-      left: 10%;
+	}
 
-  }
+	.heading img{
+	display: none;
+	}
 
-  /* batas main*/
-  /*body*/
+	.heading h1 {
+		font-size: 40px;
+	}
 
-    footer{
-      text-align: center;
-    }
+	.box {
+		width: 80%;
+		height: 75%;
+		left: 10%;
 
-   button{
+	}
 
-        padding:15px;
-        font-size:10px;
-        margin-bottom: 30px;
-    }
-       input{
-        height: 35px;
+	/* batas main*/
+	/*body*/
+	.body{
+		height: 2000px;
+	  }
 
-    }
+	  /* footer */
+	  footer{
+		text-align: center;
+	  }
 
-    .container h3 {
-      font-size:10px;
+	 button{
 
-    }
+		  padding:15px;
+		  font-size:10px;
+		  margin-bottom: 30px;
+	  }
+		 input{
+		  height: 35px;
 
-      .form{
-      padding-top: 5px;
-      font-size: 10px;
-      text-align:center;
-    }
-      .form h2{
-    font-size:15px;
-  }
-    .form p{
-    font-size:12px;
-  }
+	  }
 
-  .sosmed{
-    text-align:center;
-  }
+	  .container h3 {
+		font-size:10px;
 
-  .sosmed i{
-    padding-right: 0px;
-  }
+	  }
 
-   .images-list{
-    padding-left: 30px;
-    flex-direction: column;
+		.form{
+		padding-top: 5px;
+		padding-left: 40px;
+		font-size: 10px;
+		text-align:center;
+	  }
+		.form h2{
+	  font-size:15px;
+	}
+	  .form p{
+	  font-size:12px;
+	}
 
-  }
-  .images{
-    width: 50%;
-  }
+	.sosmed{
+	  text-align:center;
+	  padding-right: 50px;
+	}
 
-  .body{
-    height: 2000px;
-  }
-  }
+	.sosmed i{
+	  padding-right: 0px;
+	}
 
+	 .images-list{
+	  padding-left: 60px;
+	  padding-right: 60px;
+	  flex-direction: column;
+
+	}
+
+
+	}
