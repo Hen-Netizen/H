@@ -71,6 +71,7 @@ width:100%;
     background-size: cover;
     margin: 0 auto;
     position: relative;
+	  max-width:auto ;
 }
 
 .heading {
